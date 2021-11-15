@@ -1,0 +1,9 @@
+function vezesLetraAparece(frase, letra) {
+  let numeroDeOcorrencias = 0;
+  for (let index in frase) {
+    if (letra == frase[index]) {
+      numeroDeOcorrencias = numeroDeOcorrencias + 1
+    }
+  }
+  return numeroDeOcorrencias;
+}

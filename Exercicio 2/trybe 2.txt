@@ -1,0 +1,4 @@
+function tripleTheChances(chances) {
+    return chances.map(chance => chance * 3);
+
+}
